@@ -1,0 +1,31 @@
+.form__container {
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+  height: fit-content;
+  margin: 10% 0 5% 0;
+  padding: 0;
+}
+
+.form__input {
+  padding: 15px 0 15px 30px;
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'helvetica', sans-serif;
+}
+.form__input::placeholder {
+  font-family: 'helvetica', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 2px;
+  opacity: 0.75;
+}
+.form__btn {
+  width: 20%;
+  padding: 5px 20px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  font-family: 'helvetica', sans-serif;
+}
